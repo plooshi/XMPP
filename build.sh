@@ -1,0 +1,1 @@
+clang++ -I/usr/include/libxml2 -lxml2 -luuid -lssl -lcrypto -lcurl -fuse-ld=lld -mavx2 -std=gnu++2b -O2 main.cpp -o xmpp
